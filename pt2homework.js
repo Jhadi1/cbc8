@@ -7,7 +7,10 @@ while (age < 39){
 console.log("Your age is less than 45");
 age++;
 }
+console.log(2+true);
 console.log("you are now less than 45");
+
+// Exercise Conditional
 var countThis = 2;
 console.log(countThis + 5);
 console.log(countThis * 2);
@@ -54,5 +57,22 @@ if(multiplyThisReturned % 2 == 0){
 
 // multiple if lines seem to add unecessary code almost like a run-on sentence.
 
-
-
+// Exercise Function
+function sum(a, b) {
+    console.log(a + b);
+}
+sum(5, 5);
+function product(a, b) {
+    console.log(a * b);
+}
+product(5, 5);
+function testRun(a, b) {
+    for (let a = 0; a < b; a++)
+console.log(a + 1);
+}
+testRun(2, 10);
+var doug = 49;
+function testingAgain(a) {
+    return a + doug
+}
+testingAgain(5);
