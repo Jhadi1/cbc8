@@ -51,9 +51,6 @@ console.log("apples");
 if(multiplyThisReturned % 2 == 0){
     console.log("bananas");
 }
-if (countThis > 7 && 9){
-    console.log("pears");
-}
 
 // multiple if lines seem to add unecessary code almost like a run-on sentence.
 
