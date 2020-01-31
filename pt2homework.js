@@ -73,6 +73,17 @@ console.log(a + 1);
 testRun(2, 10);
 var doug = 49;
 function testingAgain(a) {
-    return a + doug
+    return a + doug;
 }
 testingAgain(5);
+var globalVariable = 5;
+function testTwo(a, b) {
+    for (let a = 0; a < b; a++)
+console.log(a + 1);
+}
+testTwo(globalVariable, 50);
+function testRun(a, b) {
+    while (0 < 50)
+console.log(a + 2);
+}
+testRun(globalVariable, 50);
