@@ -1,16 +1,22 @@
+//Exercise Datatypes
+//Question 1
 var first = "Hello my name is Jamilla";
 var second = " and this is Javascript.. Yayy! lol"
 console.log(first + second);
+//Question 2
 var age = 39;
+console.log(first + age);
+//Question 3
 console.log(first * age);
 while (age < 39){
 console.log("Your age is less than 45");
 age++;
 }
+//Bonus
 console.log(2+true);
-console.log("you are now less than 45");
 
 // Exercise Conditional
+//Question 1
 var countThis = 2;
 console.log(countThis + 5);
 console.log(countThis * 2);
@@ -27,63 +33,92 @@ console.log(multiplyThisReturned % 3);
 console.log(countThis % 2);
 
 // I was correct 
-
+//Question 2
 if (countThis % 2 == 0){
-    console.log("I am happy");
+console.log("I am happy");
 } 
+//Question 3
 else{
-    console.log("my age modulus 2 is not an even number");
+console.log("my age modulus 2 is not an even number");
 }
+//Question 4
 if (countThis !==2 || multiplyThisReturned < 10) {
-    console.log("its ok");
+console.log("its ok");
 }else 
 console.log("Mi ah just a likkle lost but mi a wul it");
 
 if (multiplyThisReturned % countThis == 0 && countThisReturned > 15){
-    console.log("this aint odd");
+console.log("this aint odd");
 } 
 else {
 console.log("one of these numbers might be odd or greater than 15");
 }
+//Question 5
 if (countThisReturned > 5){
-    console.log("OKGreat");
+console.log("OKGreat");
 }
 if (countThis < 4){
 console.log("apples");
 }
 if(multiplyThisReturned % 2 == 0){
-    console.log("bananas");
+console.log("bananas");
 }
 
-// multiple if lines seem to add unecessary code almost like a run-on sentence.
+// multiple 'if' lines seem to add unecessary code almost like a run-on sentence.
 
 // Exercise Function
+//Question 1
 function sum(a, b) {
-    console.log(a + b);
+console.log(a + b);
 }
 sum(5, 5);
+//Question 2
 function product(a, b) {
-    console.log(a * b);
+console.log(a * b);
 }
 product(5, 5);
+//Question 3
 function testRun(a, b) {
-    for (let a = 0; a < b; a++)
+for (let a = 0; a < b; a++)
 console.log(a + 1);
 }
 testRun(2, 10);
+//Question 4
 var doug = 49;
 function testingAgain(a) {
-    return a + doug;
+return a + doug;
 }
-testingAgain(5);
-var globalVariable = 5;
+testingAgain((5));
+//Question 5
+
+// Exercise Loop
+//Question 1
+var globalVariable = 1;
+//Question 2
 function testTwo(a, b) {
-    for (let a = 0; a < b; a++)
-console.log(a + 1);
+for (let a = 0; a <= b; a++)
+console.log(a);
 }
 testTwo(globalVariable, 50);
-function testRun(a, b) {
-    while (0 < 50)
-console.log(a + 2);
+//Question 3
+var a = 0;
+while (a<=50){
+console.log(a);
+a+=2;
+    }
+//Question 4
+var t = 0;
+while (t % 15 ==0 && t < 100 ){
+console.log("fizzbuzz");
+if (t % 3==0){
+console.log("fizz");
+if(t % 5==0){
+console.log("buzz");
+t++;
+        }
+    }
 }
-testRun(globalVariable, 50);
+    
+//Exercise Math
+
+
