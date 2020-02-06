@@ -90,7 +90,10 @@ return a + doug;
 }
 testingAgain((5));
 //Question 5
-
+(function() {
+var creating = "I created an IIFE.";
+    console.log(creating);
+}())
 // Exercise Loop
 //Question 1
 var globalVariable = 1;
@@ -120,5 +123,14 @@ t++;
 }
     
 //Exercise Math
-
+function randomCheck(){
+    var computerGen = Math.random();
+    var userGuess = document.getElementById("userInput").value;
+  if (userGuess == computerGen) {
+  console.log("we have a match!");
+  }
+  else {
+      console.log("no match");
+  }
+}
 
