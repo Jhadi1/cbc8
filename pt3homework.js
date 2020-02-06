@@ -15,9 +15,15 @@ console.log(list.toUpperCase());
 //Exercise Array2
 
 var inventory = [
-    ["brushes", 3], 
-    ["combs", 6],
-    ["hairspray", 4],
-    ["scissors", 2],
-    ["flat irons", 5]
-]
+    ["brush", 3],
+    ["comb", 2],
+    ["hair color", 4],
+    ["hair spray", 5]
+];
+inventory.forEach(function(userInput, value){
+    if (userInput <= inventory.length) {
+        console.log(item-=1);
+    }else{
+        console.log("out of stock");
+    }
+});
