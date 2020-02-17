@@ -22,7 +22,7 @@ console.log(countThis + 5);
 console.log(countThis * 2);
 var countThisReturned = 7;
 console.log(countThis * countThisReturned);
-var multiplyThisReturned = 14;
+var multiplyThisReturned = 14; 
 
 // I think the modulus of multiplyThisReturned and 3 will return the number 2
 
