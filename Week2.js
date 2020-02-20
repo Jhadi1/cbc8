@@ -5,3 +5,5 @@ const removeElement = function(a, index) {
     var str = document.getElementById("text1").value;
 return newArray;
 };
+
+//Exercise countdown

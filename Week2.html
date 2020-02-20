@@ -5,12 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <input id="text1" placeholder="Make Selection">
-    <br>
-    <button onClick="removeElement()" id="btn1">Click Me</button>
+<style>
+    .btn{
+        height: 20px;
+        width: 100px;
+        background: cyan;
+    } 
+</style>
 
-    <script src="Week2.js"></script>
-    
+<body>
+<h1><span id="subone">50</span></h1>
+<button onclick="subone()" type="button" class="btn">Click Here</button>
+
+
+     <script type="text/javascript">
+     function subone() {
+var foo = document.getElementById("subone").innerHTML;
+foo--;
+document.getElementById("subone").innerHTML = foo;
+}
+    </script>
+</script>
 </body>
 </html>
